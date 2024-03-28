@@ -73,7 +73,7 @@ const CreateBBSPage = () => {
             <FormItem>
               <FormLabel>ユーザー名</FormLabel>
               <FormControl>
-                <Input placeholder="テスト太郎" {...field} />
+                <Input placeholder="ユーザー名" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -84,9 +84,9 @@ const CreateBBSPage = () => {
           name="title"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>タイトル名</FormLabel>
+              <FormLabel>タイトル</FormLabel>
               <FormControl>
-                <Input placeholder="NextJs14 Learning" {...field} />
+                <Input placeholder="タイトル" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
